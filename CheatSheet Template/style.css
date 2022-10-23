@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #272822;
+	color: white;
+	height: 125px;
+}
+
+.content {
+	font-family: "Potta One", cursive;
+	margin: 0px 3px;
+}
+.container {
+	/* background-color: rebeccapurple; */
+	width: 50vw;
+	padding: 32px 0;
+	margin: auto;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+.toolbar-item button {
+	/* <button class="copy-to-clipboard-button" type="button" data-copy-state="copy"><span>Copy</span></button> */
+	cursor: pointer !important;
+	color: white !important;
+	border: 3px solid white !important;
+	border-radius: 10px !important;
+	padding: 5px 14px !important;
+}
+
+.logo {
+	padding: 0 13px;
+}
+
+.logo img {
+	width: 48px;
+	margin: -8px 0;
+}
